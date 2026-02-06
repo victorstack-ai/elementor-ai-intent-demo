@@ -1,0 +1,31 @@
+{
+  "version": "1.0.0",
+  "intent": "edit_copy",
+  "target": {
+    "type": "widget",
+    "id": "headline-4f2a"
+  },
+  "prompt": "Rewrite the headline to emphasize compliance speed without sounding salesy.",
+  "context": {
+    "page_title": "Compliance Toolkit",
+    "locale": "en-US",
+    "content_type": "landing"
+  },
+  "constraints": {
+    "tone": "neutral",
+    "brand_voice": ["clear", "helpful", "no hype"],
+    "typography": {
+      "scale": "1.1"
+    }
+  },
+  "output": {
+    "format": "text",
+    "include_annotations": false,
+    "confidence": 0.66
+  },
+  "metadata": {
+    "request_id": "req-copy-004",
+    "timestamp": "2026-02-06T12:05:00Z",
+    "source": "demo"
+  }
+}

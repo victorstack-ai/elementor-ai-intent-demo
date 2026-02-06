@@ -1,0 +1,10 @@
+{
+  "name": "elementor-ai-intent-demo",
+  "version": "0.1.0",
+  "description": "Intent schema and demo validator for Elementor AI outputs.",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "node scripts/validate-intents.js"
+  }
+}

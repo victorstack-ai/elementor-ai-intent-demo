@@ -1,0 +1,60 @@
+{
+  "version": "1.0.0",
+  "intent": "generate_section",
+  "target": {
+    "type": "section",
+    "name": "Hero"
+  },
+  "prompt": "Create a hero section for a cybersecurity SaaS with a bold headline and a secondary CTA.",
+  "context": {
+    "page_title": "CloudShield Security",
+    "locale": "en-US",
+    "content_type": "marketing",
+    "brand": {
+      "name": "CloudShield",
+      "voice": "confident, direct",
+      "values": ["trust", "speed", "clarity"]
+    },
+    "tokens": {
+      "colors": ["#0B1026", "#2F80ED", "#FFFFFF"],
+      "fonts": ["Space Grotesk", "Inter"],
+      "spacing_scale": [4, 8, 16, 24, 32, 48]
+    }
+  },
+  "constraints": {
+    "tone": "bold",
+    "audience": "IT managers at mid-market companies",
+    "accessibility": {
+      "contrast_min": 4.5,
+      "min_heading_depth": 2,
+      "require_alt_text": true
+    },
+    "layout": {
+      "density": "balanced",
+      "max_columns": 2,
+      "spacing_scale": "md"
+    },
+    "typography": {
+      "font_pair": "Space Grotesk / Inter",
+      "scale": "1.25"
+    },
+    "color": {
+      "palette": ["#0B1026", "#2F80ED", "#FFFFFF"],
+      "allow_gradients": false
+    },
+    "media": {
+      "allow_stock": true,
+      "hero_aspect_ratio": "16:9"
+    }
+  },
+  "output": {
+    "format": "elementor_json",
+    "include_annotations": true,
+    "confidence": 0.72
+  },
+  "metadata": {
+    "request_id": "req-hero-001",
+    "timestamp": "2026-02-06T12:00:00Z",
+    "source": "demo"
+  }
+}

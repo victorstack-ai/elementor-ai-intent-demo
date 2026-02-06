@@ -1,0 +1,36 @@
+{
+  "version": "1.0.0",
+  "intent": "layout_optimize",
+  "target": {
+    "type": "page",
+    "name": "Pricing"
+  },
+  "prompt": "Reduce visual noise and improve scanability for the pricing page.",
+  "context": {
+    "page_title": "Pricing",
+    "locale": "en-US",
+    "content_type": "pricing"
+  },
+  "constraints": {
+    "tone": "friendly",
+    "layout": {
+      "density": "airy",
+      "max_columns": 3,
+      "grid": "12-col"
+    },
+    "accessibility": {
+      "contrast_min": 4.5,
+      "min_heading_depth": 2
+    }
+  },
+  "output": {
+    "format": "elementor_json",
+    "include_annotations": true,
+    "confidence": 0.61
+  },
+  "metadata": {
+    "request_id": "req-layout-002",
+    "timestamp": "2026-02-06T12:10:00Z",
+    "source": "demo"
+  }
+}
